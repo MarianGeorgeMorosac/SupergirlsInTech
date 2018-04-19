@@ -21,6 +21,6 @@ Concepts intended to be used and explained in this course
 *participants.csv* to describe the participants profile
 
 ## /project
-- `data.csv`: data repository
+- `data.csv`: data repository (unzip it from `data.csv.zip`)
 - `main.ipynb`: the main jupyter notebook, the one that handles data.csv
 
