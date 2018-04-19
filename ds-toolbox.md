@@ -134,13 +134,35 @@ x = [1, 2, 3]
 np_x = np.array(x)
 ```
 
-# Statistics
-## Mean
+# [matplotlib.pyplot.matshow](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.matshow.html)
+> Display an array as a matrix in a new figure window.
+```python
+plt.matshow(matrix)
+```
 
-## Standard Deviation
+# Statistics Refresher
 
-## Percentile
+## [Mean](https://en.wikipedia.org/wiki/Mean)
+>  measure of the central tendency either of a probability distribution
+> or of the random variable characterized by that distribution
 
-## Correlation
+## [Standard Deviation](https://en.wikipedia.org/wiki/Standard_deviation)
+> a measure that is used to quantify the amount of variation or dispersion
+> of a set of data values
+> A low standard deviation indicates that the data points tend to be close
+> to the mean (also called the expected value) of the set,
+> while a high standard deviation indicates that the data points
+> are spread out over a wider range of values
 
-## Running median
+
+## [Percentile](https://en.wikipedia.org/wiki/Percentile)
+> the value below which a given percentage of observations in a group
+> of observations fall. For example, the 20th percentile is the value
+> (or score) below which 20% of the observations may be found.
+
+## [Correlation and dependence](https://en.wikipedia.org/wiki/Correlation_and_dependence)
+> most often refers to how close two variables are to having a linear relationship with each other
+
+## [Moving average](https://en.wikipedia.org/wiki/Moving_average)
+> a calculation to analyze data points by creating series of averages of
+different subsets of the full data set
