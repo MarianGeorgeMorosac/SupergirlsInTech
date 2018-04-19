@@ -28,6 +28,13 @@ import pandas as pd
     pd.read_csv('file_source', sep=, names=, header=, index_col=, parse_date=)
 ```
 
+# [pandas.DataFrame.read_csv](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.read_csv.html)
+> Read CSV (comma-separated) file into DataFrame
+> Key Arguments:
+> - 'header=' set to None if csv doesn't ahve a header
+> - 'parse_dates=' gets a list of columns that create a valid date value or True (for parsing existing date values)
+> - 'index_col=' in case there's already and index column, specify it's position
+
 
 # [pandas.DataFrame.head()](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.head.html)
 > first entries of a DataFrame; default = 5
@@ -146,6 +153,15 @@ plt.matshow(matrix)
 # [pandas.DataFrame.to_csv](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_csv.html)
 > Write DataFrame to a comma-separated values (csv) file
 
+# [pandas.DataFrame.apply](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.apply.html)
+> Applies function along input axis of DataFrame.
+```python
+df['column'].apply(lambda x: x + 1) # increments all data of 'column' by 1
+```
+
+# [pandas.DataFrame.groupby](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.groupby.html)
+> Group series using mapper (dict or key function, apply given function to group,
+> return result as series) or by a series of columns
 
 # Statistics Refresher
 
@@ -173,3 +189,7 @@ plt.matshow(matrix)
 ## [Moving average](https://en.wikipedia.org/wiki/Moving_average)
 > a calculation to analyze data points by creating series of averages of
 different subsets of the full data set
+
+## [Resampling](https://en.wikipedia.org/wiki/Resampling_(statistics))
+> statistical methods over different time intervals .mean(), .sum(), .count()
+Ex: df = df.resample('D').mean() => daily mean
