@@ -140,6 +140,13 @@ np_x = np.array(x)
 plt.matshow(matrix)
 ```
 
+# [matplotlib.pyplot.savefig](https://matplotlib.org/api/_as_gen/matplotlib.pyplot.savefig.html)
+> Save the current figure.
+
+# [pandas.DataFrame.to_csv](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.to_csv.html)
+> Write DataFrame to a comma-separated values (csv) file
+
+
 # Statistics Refresher
 
 ## [Mean](https://en.wikipedia.org/wiki/Mean)
