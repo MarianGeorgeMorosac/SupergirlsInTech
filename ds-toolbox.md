@@ -96,6 +96,13 @@ for key, value in df['column'].iteritems():
 DataFrame.from_dict(data, orient='columns', dtype=None)
 ```
 
+# [pandas.DataFrame.describe](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.describe.html)
+> Generates descriptive statistics that summarize the central tendency,
+> dispersion and shape of a dataset’s distribution, excluding NaN values.
+```python
+df.describe(percentiles=None, include=None, exclude=None)
+```
+
 # [pandas.DataFrame.sort_values](https://pandas.pydata.org/pandas-docs/stable/generated/pandas.DataFrame.sort_values.html)
 > Sort by the values along either axis
 ```python
@@ -126,3 +133,14 @@ import numpy as np
 x = [1, 2, 3]
 np_x = np.array(x)
 ```
+
+# Statistics
+## Mean
+
+## Standard Deviation
+
+## Percentile
+
+## Correlation
+
+## Running median
